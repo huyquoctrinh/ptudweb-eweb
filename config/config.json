@@ -1,10 +1,16 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "postgres",
+    "username": "huyquoctrinh",
+    "password": "6JhbqnOflpVn1edmUCH2Nm9sVpUiBtGB",
     "database": "eweb",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
+    "host": "dpg-chn0poik728vrd93fsvg-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "postgres",
@@ -14,10 +20,10 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "postgres",
-    "password": "postgres",
+    "username": "huyquoctrinh",
+    "password": "6JhbqnOflpVn1edmUCH2Nm9sVpUiBtGB",
     "database": "eweb",
-    "host": "127.0.0.1",
+    "host": "dpg-chn0poik728vrd93fsvg-a.oregon-postgres.render.com",
     "dialect": "postgres",
     "dialectOptions": {
       "ssl": {
